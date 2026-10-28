@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbfaf8">
+  <meta name="description" content="Cursos, bolsas, ENEM, Institutos Federais e oportunidades de trabalho em um só lugar. Conhecimento. Oportunidades. Você.">
+  <title>VoaMais — Conhecimento. Oportunidades. Você.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m18 6-12 12M6 6l12 12"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M5 21v-2a7 7 0 0 1 14 0v2"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v17H6.5A2.5 2.5 0 0 0 4 22z"/><path d="M4 5v17m5-15h7"/></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24"><path d="m2 10 10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5m4-2v6"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="m8.2 13-1 8 4.8-3 4.8 3-1-8"/></symbol>
+    <symbol id="i-building" viewBox="0 0 24 24"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5M9 9h.01M15 9h.01M9 12h.01M15 12h.01"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2m-13 5h18m-11 0v2h4v-2"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 3 1.9 5.8L20 11l-6.1 2.2L12 19l-2-5.8L4 11l6-2.2zM19 16l1 2.5 2.5 1-2.5 1L19 23l-1-2.5-2.5-1 2.5-1z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1.1L12 21l7.8-7.5 1.1-1.1a5.5 5.5 0 0 0-.1-7.8z"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18m0-18a14 14 0 0 0 0 18"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="VoaMais, início">
+        <span class="brand-mark" aria-hidden="true">v<span>+</span></span>
+        <span>voa<span>mais</span></span>
+      </a>
+      <button class="menu-toggle icon-button" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="primary-nav">
+        <svg class="icon"><use href="#i-menu"/></svg>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#categorias">Cursos</a>
+        <a href="#destaques">Bolsas</a>
+        <a href="#destaques">Vestibulares</a>
+        <a href="#categorias">IFs</a>
+        <a href="#oportunidades">Trabalho</a>
+        <a href="#metodos">Ferramentas</a>
+        <a href="#sobre">Sobre</a>
+      </nav>
+      <div class="header-actions">
+        <a class="icon-button" href="#busca" aria-label="Ir para a pesquisa"><svg class="icon"><use href="#i-search"/></svg></a>
+        <button class="icon-button profile-trigger" type="button" aria-label="Fazer teste de perfil"><svg class="icon"><use href="#i-user"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Um mundo de possibilidades, mais perto de você</p>
+          <h1>Seu futuro também<br>é <span class="highlight-word">possível.</span></h1>
+          <p class="hero-description">Aqui você encontra cursos, bolsas, vestibulares, IFs, empregos e outras oportunidades para estudar, se qualificar e conquistar o que sonha.</p>
+          <form class="search-form" id="search-form" role="search">
+            <svg class="icon search-icon"><use href="#i-search"/></svg>
+            <label class="visually-hidden" for="site-search">O que você está procurando?</label>
+            <input id="site-search" type="search" autocomplete="off" placeholder="O que você está procurando?" aria-describedby="search-hint">
+            <button class="button button-primary" type="submit">Buscar <svg class="icon"><use href="#i-arrow"/></svg></button>
+            <div class="search-results" id="search-results" role="listbox" aria-label="Resultados da pesquisa" hidden></div>
+          </form>
+          <p class="search-hint" id="search-hint">Experimente: curso de informática, bolsa de estudo, ENEM...</p>
+          <div class="quick-filters" aria-label="Pesquisas populares">
+            <span>Em alta:</span>
+            <button type="button" data-search="Cursos">Cursos</button>
+            <button type="button" data-search="Bolsas">Bolsas</button>
+            <button type="button" data-search="ENEM">ENEM</button>
+            <button type="button" data-search="IFs">IFs</button>
+            <button type="button" data-search="Emprego">Emprego</button>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+          <div class="art-card art-card-main">
+            <span class="art-spark">✳</span>
+            <span class="art-label">seu próximo passo</span>
+            <strong>começa<br>por aqui<span>.</span></strong>
+            <span class="art-arrow"><svg class="icon"><use href="#i-arrow"/></svg></span>
+          </div>
+          <div class="art-note note-top"><span class="note-icon"><svg class="icon"><use href="#i-cap"/></svg></span><span>Aprender<br><strong>abre caminhos</strong></span></div>
+          <div class="art-note note-bottom"><span class="note-icon note-icon-green"><svg class="icon"><use href="#i-spark"/></svg></span><span>Seu futuro<br><strong>tem espaço aqui</strong></span></div>
+          <span class="art-star star-one">✳</span><span class="art-star star-two">✳</span>
+        </div>
+      </div>
+      <div class="container hero-footnote"><span class="footnote-line"></span><span>Oportunidades reais para transformar seus planos em conquistas.</span></div>
+    </section>
+
+    <section class="section section-categories" id="categorias">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">Explore por onde começar</p><h2>Um caminho para cada plano.</h2></div>
+          <p>Encontre recursos práticos para dar o próximo passo no seu ritmo.</p>
+        </div>
+        <div class="category-grid">
+          <a class="category-card category-lilac" href="#oportunidades" data-category-link="cursos"><span class="category-icon"><svg class="icon"><use href="#i-book"/></svg></span><h3>Cursos</h3><p>Opções gratuitas ou pagas, online e presenciais.</p><span class="card-arrow"><svg class="icon"><use href="#i-arrow"/></svg></span></a>
+          <a class="category-card category-peach" href="#oportunidades" data-category-link="bolsas"><span class="category-icon"><svg class="icon"><use href="#i-award"/></svg></span><h3>Bolsas e auxílios</h3><p>Apoio para continuar estudando e chegar mais longe.</p><span class="card-arrow"><svg class="icon"><use href="#i-arrow"/></svg></span></a>
+          <a class="category-card category-blue" href="#destaques" data-category-link="enem"><span class="category-icon"><svg class="icon"><use href="#i-cap"/></svg></span><h3>Vestibulares e ENEM</h3><p>Informação e preparação para as provas.</p><span class="card-arrow"><svg class="icon"><use href="#i-arrow"/></svg></span></a>
+          <a class="category-card category-green" href="#destaques" data-category-link="ifs"><span class="category-icon"><svg class="icon"><use href="#i-building"/></svg></span><h3>IFs e universidades</h3><p>Conheça instituições e formas de ingresso.</p><span class="card-arrow"><svg class="icon"><use href="#i-arrow"/></svg></span></a>
+          <a class="category-card category-blue" href="#oportunidades" data-category-link="trabalho"><span class="category-icon"><svg class="icon"><use href="#i-briefcase"/></svg></span><h3>Trabalho</h3><p>Primeiro emprego, estágio e jovem aprendiz.</p><span class="card-arrow"><svg class="icon"><use href="#i-arrow"/></svg></span></a>
+          <a class="category-card category-green" href="#metodos"><span class="category-icon"><svg class="icon"><use href="#i-globe"/></svg></span><h3>Apps e sites</h3><p>Ferramentas úteis para estudar e se organizar.</p><span class="card-arrow"><svg class="icon"><use href="#i-arrow"/></svg></span></a>
+          <a class="category-card category-peach" href="#metodos"><span class="category-icon"><svg class="icon"><use href="#i-spark"/></svg></span><h3>Métodos de estudo</h3><p>Estratégias simples para aprender melhor.</p><span class="card-arrow"><svg class="icon"><use href="#i-arrow"/></svg></span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-featured" id="destaques">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">Oportunidades em destaque</p><h2>Comece pelo que importa.</h2></div>
+          <a class="text-link" href="#oportunidades">Ver todas as oportunidades <svg class="icon"><use href="#i-arrow"/></svg></a>
+        </div>
+        <div class="featured-grid">
+          <article class="feature-card feature-wide feature-exam"><span class="feature-tag">Preparação</span><div><h3>Seu próximo capítulo<br>começa no ENEM.</h3><p>Conteúdos, datas e dicas para você chegar preparado.</p><a href="#metodos" class="text-link">Explorar guia <svg class="icon"><use href="#i-arrow"/></svg></a></div><span class="feature-illustration" aria-hidden="true"><span class="exam-circle">ENEM</span><span class="exam-pencil">✳</span></span></article>
+          <article class="feature-card feature-prouni"><span class="feature-tag">Acesso à graduação</span><span class="feature-deco" aria-hidden="true">✳</span><h3>ProUni</h3><p>Entenda como funcionam as bolsas em universidades particulares.</p><a href="#oportunidades" class="text-link">Ver mais <svg class="icon"><use href="#i-arrow"/></svg></a></article>
+          <article class="feature-card feature-courses"><span class="feature-tag">Aprenda no seu ritmo</span><span class="feature-deco" aria-hidden="true">↗</span><h3>Cursos gratuitos</h3><p>Encontre opções gratuitas e pagas, inclusive com certificado.</p><a href="#oportunidades" class="text-link">Ver mais <svg class="icon"><use href="#i-arrow"/></svg></a></article>
+          <article class="feature-card feature-ifs"><span class="feature-tag">Ensino público</span><h3>Institutos Federais</h3><p>Cursos técnicos e de graduação em todo o Brasil.</p><a href="#oportunidades" class="text-link">Ver mais <svg class="icon"><use href="#i-arrow"/></svg></a></article>
+          <article class="feature-card feature-scholarships"><span class="feature-tag">Apoio para estudar</span><h3>Bolsas e auxílios</h3><p>Descubra apoios que ajudam você a seguir em frente.</p><a href="#oportunidades" class="text-link">Ver mais <svg class="icon"><use href="#i-arrow"/></svg></a></article>
+          <article class="feature-card feature-jobs"><span class="feature-tag">Primeira oportunidade</span><h3>Trabalho e estágio</h3><p>Seu começo profissional pode estar mais perto do que imagina.</p><a href="#oportunidades" class="text-link">Ver mais <svg class="icon"><use href="#i-arrow"/></svg></a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-needs">
+      <div class="container needs-layout">
+        <div class="needs-intro"><p class="eyebrow">Um passo de cada vez</p><h2>O que você<br>precisa agora?</h2><p>Escolha um objetivo. A gente ajuda você a encontrar por onde começar.</p><span class="needs-doodle" aria-hidden="true">↘</span></div>
+        <div class="needs-grid">
+          <button class="need-link" data-search="curso gratuito"><span class="need-number">01</span><span>Quero encontrar um curso gratuito</span><svg class="icon"><use href="#i-arrow"/></svg></button>
+          <button class="need-link" data-search="ENEM"><span class="need-number">02</span><span>Quero me preparar para o ENEM</span><svg class="icon"><use href="#i-arrow"/></svg></button>
+          <button class="need-link" data-search="currículo"><span class="need-number">03</span><span>Preciso fazer meu currículo</span><svg class="icon"><use href="#i-arrow"/></svg></button>
+          <button class="need-link" data-search="jovem aprendiz"><span class="need-number">04</span><span>Quero encontrar um jovem aprendiz</span><svg class="icon"><use href="#i-arrow"/></svg></button>
+          <button class="need-link" data-search="bolsa"><span class="need-number">05</span><span>Quero uma bolsa de estudos</span><svg class="icon"><use href="#i-arrow"/></svg></button>
+          <button class="need-link" data-search="inglês"><span class="need-number">06</span><span>Quero aprender inglês</span><svg class="icon"><use href="#i-arrow"/></svg></button>
+          <button class="need-link" data-search="programação"><span class="need-number">07</span><span>Quero estudar programação</span><svg class="icon"><use href="#i-arrow"/></svg></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-methods" id="metodos">
+      <div class="container methods-layout">
+        <div class="section-heading methods-heading"><div><p class="eyebrow">Ferramentas para sua rotina</p><h2>Estudar também<br>se aprende.</h2></div><p>Pequenas estratégias podem fazer uma grande diferença na sua jornada.</p></div>
+        <div class="method-list">
+          <a href="#oportunidades" class="method-item"><span class="method-number">01</span><span><strong>Técnica Pomodoro</strong><small>Estude com foco e pausas planejadas.</small></span><svg class="icon"><use href="#i-arrow"/></svg></a>
+          <a href="#oportunidades" class="method-item"><span class="method-number">02</span><span><strong>Revisão espaçada</strong><small>Relembre o conteúdo na hora certa.</small></span><svg class="icon"><use href="#i-arrow"/></svg></a>
+          <a href="#oportunidades" class="method-item"><span class="method-number">03</span><span><strong>Mapas mentais</strong><small>Conecte ideias de um jeito visual.</small></span><svg class="icon"><use href="#i-arrow"/></svg></a>
+          <a href="#oportunidades" class="method-item"><span class="method-number">04</span><span><strong>Cronograma de estudos</strong><small>Organize seu tempo sem complicação.</small></span><svg class="icon"><use href="#i-arrow"/></svg></a>
+          <a href="#oportunidades" class="method-item"><span class="method-number">05</span><span><strong>Flashcards e ENEM</strong><small>Pratique e revise no seu ritmo.</small></span><svg class="icon"><use href="#i-arrow"/></svg></a>
+          <a href="https://www.khanacademy.org/" target="_blank" rel="noreferrer" class="method-item"><span class="method-number">06</span><span><strong>Apps e sites para estudar</strong><small>Explore recursos gratuitos, como a Khan Academy.</small></span><svg class="icon"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-for-you" id="para-voce">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">Ideias para o seu próximo passo</p><h2>Para você.</h2></div>
+          <button class="text-link profile-trigger" type="button">Fazer teste de perfil <svg class="icon"><use href="#i-arrow"/></svg></button>
+        </div>
+        <div class="recommendation-grid">
+          <a href="#oportunidades" class="recommendation-card"><span class="recommendation-icon lavender"><svg class="icon"><use href="#i-book"/></svg></span><span><strong>Curso de informática</strong><small>Conhecimentos que abrem portas</small></span><svg class="icon rec-arrow"><use href="#i-arrow"/></svg></a>
+          <a href="#oportunidades" class="recommendation-card"><span class="recommendation-icon green"><svg class="icon"><use href="#i-award"/></svg></span><span><strong>Bolsa de permanência</strong><small>Apoio para seguir estudando</small></span><svg class="icon rec-arrow"><use href="#i-arrow"/></svg></a>
+          <a href="#oportunidades" class="recommendation-card"><span class="recommendation-icon peach"><svg class="icon"><use href="#i-briefcase"/></svg></span><span><strong>Jovem Aprendiz</strong><small>Seu primeiro passo profissional</small></span><svg class="icon rec-arrow"><use href="#i-arrow"/></svg></a>
+          <a href="#oportunidades" class="recommendation-card"><span class="recommendation-icon blue"><svg class="icon"><use href="#i-globe"/></svg></span><span><strong>Curso de inglês</strong><small>Novas possibilidades no seu caminho</small></span><svg class="icon rec-arrow"><use href="#i-arrow"/></svg></a>
+          <a href="#oportunidades" class="recommendation-card"><span class="recommendation-icon peach"><svg class="icon"><use href="#i-spark"/></svg></span><span><strong>Estágio</strong><small>Aprenda na prática</small></span><svg class="icon rec-arrow"><use href="#i-arrow"/></svg></a>
+          <a href="#oportunidades" class="recommendation-card"><span class="recommendation-icon lavender"><svg class="icon"><use href="#i-book"/></svg></span><span><strong>Curso de programação</strong><small>Crie as próximas possibilidades</small></span><svg class="icon rec-arrow"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-profile">
+      <div class="container">
+        <div class="profile-banner">
+          <div class="profile-copy"><p class="eyebrow">A sua jornada, do seu jeito</p><h2>Qual caminho<br>combina com você?</h2><p>Responda algumas perguntas e descubra cursos, bolsas e oportunidades que combinam com seus interesses.</p><button class="button button-dark profile-trigger" type="button">Fazer teste <svg class="icon"><use href="#i-arrow"/></svg></button></div>
+          <div class="profile-visual" aria-hidden="true"><div class="profile-sun"></div><div class="profile-path"></div><span class="profile-star">✳</span><span class="profile-plant">⌁</span><span class="profile-sticker">seu<br>jeito<br>de voar</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-opportunities" id="oportunidades">
+      <div class="container">
+        <div class="section-heading opportunities-heading">
+          <div><p class="eyebrow">Pode ser o seu próximo passo</p><h2>Últimas oportunidades.</h2></div>
+          <div class="opportunity-tools"><label class="visually-hidden" for="opportunity-filter">Filtrar oportunidades por categoria</label><select id="opportunity-filter"><option value="todas">Todas as áreas</option><option value="cursos">Cursos</option><option value="bolsas">Bolsas</option><option value="trabalho">Trabalho</option><option value="enem">ENEM</option><option value="ifs">IFs</option></select><a class="text-link" href="#oportunidades">Ver todas <svg class="icon"><use href="#i-arrow"/></svg></a></div>
+        </div>
+        <div class="opportunity-list" id="opportunity-list" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section section-social" id="sobre">
+      <div class="container social-banner">
+        <div><p class="eyebrow">Vamos mais longe, juntos</p><h2>Acompanhe o VoaMais.</h2><p>Novas bolsas, inscrições abertas, cursos gratuitos, dicas para o ENEM, oportunidades de emprego, métodos de estudo e carreira.</p></div>
+        <div class="social-links" aria-label="Redes sociais do VoaMais">
+          <a href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram">Instagram <span>↗</span></a>
+          <a href="https://tiktok.com" target="_blank" rel="noreferrer" aria-label="TikTok">TikTok <span>↗</span></a>
+          <a href="https://youtube.com" target="_blank" rel="noreferrer" aria-label="YouTube">YouTube <span>↗</span></a>
+          <a href="https://telegram.org" target="_blank" rel="noreferrer" aria-label="Telegram">Telegram <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div><a class="brand footer-brand" href="#inicio"><span class="brand-mark" aria-hidden="true">v<span>+</span></span><span>voa<span>mais</span></span></a><p>Conhecimento. Oportunidades. Você.</p></div>
+      <nav class="footer-links" aria-label="Links do rodapé"><a href="#sobre">Sobre</a><a href="mailto:oi@voamais.org">Contato</a><a href="pages/privacidade.html">Privacidade</a><a href="pages/termos.html">Termos de uso</a></nav>
+      <a class="back-top" href="#inicio">Voltar ao topo <span>↑</span></a>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="current-year"></span> VoaMais. Feito para abrir caminhos.</span><span>Um passo de cada vez. Você chega lá.</span></div>
+  </footer>
+
+  <dialog class="modal" id="opportunity-dialog" aria-labelledby="opportunity-dialog-title">
+    <form method="dialog"><button class="icon-button modal-close" aria-label="Fechar detalhes"><svg class="icon"><use href="#i-close"/></svg></button></form>
+    <div class="modal-content" id="opportunity-dialog-content"></div>
+  </dialog>
+  <dialog class="modal profile-modal" id="profile-dialog" aria-labelledby="profile-dialog-title">
+    <form method="dialog"><button class="icon-button modal-close" aria-label="Fechar teste"><svg class="icon"><use href="#i-close"/></svg></button></form>
+    <div class="modal-content">
+      <p class="eyebrow">Seu próximo passo começa aqui</p><h2 id="profile-dialog-title">Vamos encontrar seu caminho?</h2>
+      <p class="modal-intro">Conte um pouquinho sobre você para receber sugestões mais próximas do que procura.</p>
+      <form id="profile-form" class="profile-form">
+        <label>Qual é a sua idade?<input name="age" type="number" min="14" max="100" placeholder="Ex.: 18" required></label>
+        <label>Qual é a sua escolaridade?
+          <select name="education" required><option value="">Selecione</option><option>Ensino fundamental</option><option>Ensino médio cursando</option><option>Ensino médio completo</option><option>Ensino superior cursando</option><option>Ensino superior completo</option></select>
+        </label>
+        <label>Qual área mais combina com você?
+          <select name="interest" required><option value="">Selecione</option><option value="tecnologia">Tecnologia e programação</option><option value="administracao">Administração e negócios</option><option value="comunicacao">Comunicação e marketing</option><option value="educacao">Educação e ciências humanas</option><option value="saude">Saúde e bem-estar</option><option value="geral">Ainda estou descobrindo</option></select>
+        </label>
+        <label>O que você quer conquistar agora?
+          <select name="goal" required><option value="">Selecione</option><option value="estudar">Continuar meus estudos</option><option value="trabalhar">Conseguir um trabalho</option><option value="aprender">Aprender uma habilidade</option><option value="enem">Me preparar para o ENEM</option></select>
+        </label>
+        <label>Quanto tempo você tem por semana?
+          <select name="availability" required><option value="">Selecione</option><option>Até 3 horas</option><option>De 4 a 8 horas</option><option>Mais de 8 horas</option></select>
+        </label>
+        <label>Qual modalidade prefere?
+          <select name="modality" required><option value="">Selecione</option><option value="online">Online</option><option value="presencial">Presencial</option><option value="qualquer">Tanto faz</option></select>
+        </label>
+        <label class="checkbox-label"><input name="free" type="checkbox" checked> Quero priorizar oportunidades gratuitas</label>
+        <button class="button button-primary" type="submit">Ver minhas sugestões <svg class="icon"><use href="#i-arrow"/></svg></button>
+      </form>
+      <div id="profile-results" class="profile-results" aria-live="polite" hidden></div>
+    </div>
+  </dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
